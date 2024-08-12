@@ -23,6 +23,8 @@ body{
 .main{
     background-color: white;
     height: 100vh;
+    display: grid;
+    grid-template-rows: 20% 80%;
 }
 
 .logo-text{
@@ -55,4 +57,41 @@ body{
     display: flex;
     flex-direction: column;
     margin-top: 40px;
+}
+
+.header{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    background-color: lightgray;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 20px;
+}
+
+.welcome{
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+}
+
+.form-input{
+    width: 500px;
+    height: 22px;
+    background-color: lightgray;
+    border-radius: 15px;
+    border: 1px solid lightgray;
+    margin-left: 10px;
+    margin-right: 90px;
+}
+
+.profile{
+    margin: 0 20px;
 }
