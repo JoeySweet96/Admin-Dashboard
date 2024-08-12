@@ -73,7 +73,7 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 20px 20px;
+    margin: 25px 20px;
 }
 
 .welcome{
@@ -123,4 +123,86 @@ body{
 .content{
     display: grid;
     grid-template-columns: 70% 30%;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-left: 5px solid orange;
+    border-radius: 10px;
+    width: 80%;
+    height: 130px;
+    margin: 30px 0;
+    margin-left: 20px;
+    padding: 20px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.card p{
+    font-size: 13px;
+    color: rgb(145, 145, 145);
+}
+
+.card h4{
+    margin-top: 20px;
+}
+
+.ann-tren{
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+
+.ann-card, .tren-card{
+    background-color: white;
+    height: 80%;
+    width: 80%;
+    border-radius: 15px;
+}
+
+.ann-text{
+    margin: 10px 0;
+    padding: 5px 10px;
+}
+
+.ann-text p, .text p{
+    font-size: 12px;
+    color: rgb(145, 145, 145);
+}
+
+.divider{
+    border: 0.5px solid black;
+    width: 80%;
+    margin-left: 20px;
+}
+
+.image-text{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 20px;
+}
+
+.text{
+    margin-left: 20px;
+}
+
+.tren-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.image-text img{
+    transform: scale(1.5);
 }
